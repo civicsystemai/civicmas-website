@@ -27,8 +27,8 @@ export default function Process() {
           <h2 className="text-2xl md:text-3xl font-bold text-[#112E51] text-balance">
             The Extraction Process
           </h2>
-          <p className="text-[#5B616B] mt-3 max-w-xl text-pretty">
-            A fully auditable, three-stage pipeline designed for defensible GovCon&nbsp;deliverables.
+          <p className="text-[#5B616B] mt-3 max-w-xl">
+            A fully auditable pipeline for defensible GovCon deliverables.
           </p>
         </div>
 

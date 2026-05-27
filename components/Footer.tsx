@@ -11,8 +11,8 @@ export default function Footer() {
               Section 04 — Contact
             </p>
             <h2 className="text-xl font-bold">Request an Engagement</h2>
-            <p className="text-sm text-[#D6D7D9] mt-1 max-w-sm">
-              Initial pilot extracts available at no cost for qualified prime contractors.
+            <p className="text-sm text-[#D6D7D9] mt-1">
+              No-cost pilot extracts for qualified prime contractors.
             </p>
           </div>
           <a
