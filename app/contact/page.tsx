@@ -28,11 +28,11 @@ export default function Contact() {
       {/* Content */}
       <div className="flex-1 bg-white">
         <div className="max-w-6xl mx-auto px-6 py-16">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-16">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 
             {/* Left: Contact details */}
-            <div className="lg:col-span-1">
-              <p className="text-xs font-mono tracking-widest uppercase text-[#5B616B] mb-6">
+            <div className="lg:col-span-1 flex flex-col gap-6">
+              <p className="text-xs font-mono tracking-widest uppercase text-[#5B616B]">
                 Primary Point of Contact
               </p>
 
@@ -68,17 +68,19 @@ export default function Contact() {
                 </div>
               </div>
 
-              <div className="mt-8 p-5 bg-[#F1F1F1] border border-[#D6D7D9]">
-                <p className="text-xs font-mono tracking-widest uppercase text-[#5B616B] mb-3">
-                  Response SLA
-                </p>
-                <div className="space-y-2">
+              <div className="border border-[#D6D7D9]">
+                <div className="bg-[#112E51] px-5 py-3">
+                  <p className="text-xs font-mono tracking-widest uppercase text-[#D6D7D9]">
+                    Response SLA
+                  </p>
+                </div>
+                <div className="divide-y divide-[#D6D7D9]">
                   {[
                     ["Initial response", "≤ 1 business day"],
                     ["Pilot extract delivery", "4 – 24 hours"],
                     ["Engagement kickoff", "Same week"],
                   ].map(([label, val]) => (
-                    <div key={label} className="flex justify-between text-sm">
+                    <div key={label} className="flex justify-between px-5 py-3 text-sm">
                       <span className="text-[#5B616B]">{label}</span>
                       <span className="font-mono text-[#112E51] font-semibold">{val}</span>
                     </div>
@@ -88,12 +90,15 @@ export default function Contact() {
             </div>
 
             {/* Right: Form */}
-            <div className="lg:col-span-2">
-              <p className="text-xs font-mono tracking-widest uppercase text-[#5B616B] mb-6">
+            <div className="lg:col-span-2 flex flex-col gap-6">
+              <p className="text-xs font-mono tracking-widest uppercase text-[#5B616B]">
                 Engagement Request Form
               </p>
-              <ContactForm />
+              <div className="border border-[#D6D7D9] p-6 md:p-8">
+                <ContactForm />
+              </div>
             </div>
+
           </div>
         </div>
       </div>
