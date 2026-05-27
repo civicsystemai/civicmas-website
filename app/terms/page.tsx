@@ -94,7 +94,7 @@ Pilot extracts provided at no cost are exempt from payment terms and are subject
     title: "Contact",
     body: `Questions regarding these Terms should be directed to:
 
-Colin Davis, Principal Solutions Architect
+Colin Davis, Principal
 Civic Media and Automation Systems LLC
 colin@civicmas.com`,
   },

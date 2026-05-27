@@ -39,7 +39,7 @@ export default function Contact() {
               <div className="border border-[#D6D7D9] divide-y divide-[#D6D7D9]">
                 <div className="p-5">
                   <p className="font-bold text-[#112E51] text-base">Colin Davis</p>
-                  <p className="text-sm text-[#5B616B] mt-1">Principal Solutions Architect</p>
+                  <p className="text-sm text-[#5B616B] mt-1">Principal</p>
                 </div>
 
                 <div className="p-5 flex items-start gap-3">

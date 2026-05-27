@@ -13,7 +13,7 @@ const services = [
     naics: "NAICS 541519",
     title: "Automated RFP Compliance Matrix Generation",
     description:
-      "We operate as an asynchronous back-office for Prime capture teams. We ingest public 200+ page government RFPs and utilize a proprietary, disconnected Python/LLM extraction architecture. The system isolates all mandatory 'shall, must, and will' requirements, maps evaluation criteria, and outputs a flawlessly formatted, color-coded Excel Compliance Matrix within a guaranteed 4-hour SLA.",
+      "We operate as an asynchronous back-office for Prime capture teams. We ingest public 200+ page government RFPs and utilize a proprietary, stateless Python and NLP extraction architecture. The system isolates all mandatory 'shall, must, and will' requirements, maps evaluation criteria, and outputs a flawlessly formatted, color-coded Excel Compliance Matrix within a guaranteed 4-hour SLA.",
     sla: "4-Hour Guaranteed SLA",
     outputs: [
       "Color-coded Excel Compliance Matrix (Section M / L aligned)",
@@ -49,7 +49,7 @@ const services = [
     naics: "NAICS 541519",
     title: "FOIA & Price-to-Win OCR Extraction",
     description:
-      "We support Capture and PTW teams by converting flattened, scanned incumbent FOIA documents into workable financial models. Our vision-language pipelines accurately scrape competitor pricing tables and labor categories into clean Excel architectures.",
+      "We support Capture and PTW teams by converting flattened, scanned incumbent FOIA documents into workable financial models. Our machine-vision OCR pipelines accurately scrape competitor pricing tables and labor categories into clean Excel architectures.",
     sla: "24-Hour Turnaround",
     outputs: [
       "Extracted competitor labor categories and loaded rates",
@@ -78,7 +78,7 @@ export default function Capabilities() {
           <h1 className="text-3xl md:text-4xl font-bold mb-4">Core Competencies</h1>
           <p className="text-[#D6D7D9] max-w-2xl text-sm leading-relaxed">
             Automated data extraction services purpose-built for federal proposal operations.
-            All processing occurs on disconnected local infrastructure with zero integration
+            All processing occurs on stateless processing environments with zero integration
             requirements from the Prime.
           </p>
         </div>

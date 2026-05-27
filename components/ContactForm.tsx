@@ -101,7 +101,7 @@ export default function ContactForm() {
       </button>
 
       <p className="text-xs text-[#5B616B] font-mono">
-        * Required fields. Submissions are reviewed by the Principal Solutions Architect within
+        * Required fields. Submissions are reviewed by the Principal within
         one business day.
       </p>
     </form>

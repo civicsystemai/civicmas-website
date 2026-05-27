@@ -35,12 +35,12 @@ We do not collect personal financial information, Social Security Numbers, or an
 — Maintain records required for federal contracting compliance (e.g., SAM.gov registration obligations);
 — Operate and improve our website infrastructure.
 
-We do not use client-furnished acquisition documents to train, fine-tune, or evaluate any commercial large language model (LLM) or third-party artificial intelligence system.`,
+We do not use client-furnished acquisition documents to train, fine-tune, or evaluate any commercial artificial intelligence models or third-party artificial intelligence system.`,
   },
   {
     num: "4.",
     title: "Data Isolation & Non-Disclosure",
-    body: `As a subcontractor operating within federal procurement environments, we maintain strict data isolation practices. Client-furnished documents are processed in isolated, stateless local environments and are not co-mingled with other client data. Engagement data is purged upon client confirmation of deliverable receipt unless a longer retention period is required by law or agreed to in writing.
+    body: `As a subcontractor operating within federal procurement environments, we maintain strict data isolation practices. Client-furnished documents are processed in isolated, stateless environments and are not co-mingled with other client data. Engagement data is purged upon client confirmation of deliverable receipt unless a longer retention period is required by law or agreed to in writing.
 
 We do not disclose client information, engagement scope, or deliverable contents to any third party without prior written authorization from the client, except as required by applicable federal law or a valid legal order.`,
   },
@@ -52,7 +52,7 @@ We do not disclose client information, engagement scope, or deliverable contents
   {
     num: "6.",
     title: "Security",
-    body: `We implement administrative, technical, and physical safeguards appropriate to the sensitivity of information processed. Our processing infrastructure operates on disconnected local systems that do not interface with client enterprise networks. Deliverables are transmitted via encrypted channels agreed upon with each client prior to engagement commencement.`,
+    body: `We implement administrative, technical, and physical safeguards appropriate to the sensitivity of information processed. Our processing infrastructure operates on isolated systems that do not interface with client enterprise networks. Deliverables are transmitted via encrypted channels agreed upon with each client prior to engagement commencement.`,
   },
   {
     num: "7.",
@@ -74,7 +74,7 @@ We do not disclose client information, engagement scope, or deliverable contents
     title: "Contact",
     body: `Questions regarding this Privacy Policy should be directed to:
 
-Colin Davis, Principal Solutions Architect
+Colin Davis, Principal
 Civic Media and Automation Systems LLC
 colin@civicmas.com`,
   },

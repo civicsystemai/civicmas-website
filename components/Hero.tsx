@@ -17,7 +17,7 @@ export default function Hero() {
         </h1>
 
         <p className="text-lg text-[#5B616B] mb-10 max-w-2xl leading-relaxed">
-          A disconnected, HUBZone-certified data infrastructure firm specializing in
+          A specialized, HUBZone-certified data infrastructure firm specializing in
           zero-integration compliance matrix generation.
         </p>
 

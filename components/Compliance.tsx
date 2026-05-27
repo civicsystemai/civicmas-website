@@ -3,7 +3,7 @@ const identifiers = [
   { label: "UEI", value: "[PENDING]" },
   { label: "CAGE Code", value: "[PENDING]" },
   { label: "Primary NAICS", value: "541519 · 518210" },
-  { label: "Infrastructure", value: "Zero-Integration / Disconnected Local Processing" },
+  { label: "Infrastructure", value: "Zero-Integration / Stateless Processing" },
 ];
 
 export default function Compliance() {

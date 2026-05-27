@@ -3,13 +3,13 @@ const steps = [
     number: "01",
     title: "Secure Intake",
     description:
-      "Public RFPs securely routed via encrypted channels. All source documents remain isolated from production infrastructure throughout the engagement.",
+      "Public RFPs securely routed via encrypted channels. All source documents remain isolated from Prime enterprise networks throughout the engagement.",
   },
   {
     number: "02",
     title: "Automated Extraction",
     description:
-      "Proprietary Python/LLM architecture isolates mandatory requirements (shall / must / will). Zero third-party API calls. Processing occurs entirely on disconnected local hardware.",
+      "Proprietary Python and Natural Language Processing (NLP) architecture isolates mandatory requirements (shall / must / will). Processing utilizes enterprise-grade, zero-retention API endpoints. Data is processed statelessly with zero persistence or model training.",
   },
   {
     number: "03",
