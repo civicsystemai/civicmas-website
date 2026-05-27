@@ -17,7 +17,7 @@ export default function Contact() {
           <p className="text-xs font-mono tracking-widest uppercase text-[#D6D7D9] mb-3">
             Civic Automation Systems — Engagement Intake
           </p>
-          <h1 className="text-3xl md:text-4xl font-bold mb-4">Initiate a Pilot Extract</h1>
+          <h1 className="text-3xl md:text-4xl font-bold mb-4 text-balance">Initiate a Pilot Extract</h1>
           <p className="text-[#D6D7D9] max-w-xl text-sm leading-relaxed">
             Initial pilot extracts are available at no cost for qualified prime contractors.
             Turnaround on first contact is typically within one business day.

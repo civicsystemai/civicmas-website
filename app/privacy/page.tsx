@@ -88,7 +88,7 @@ export default function Privacy() {
           <p className="text-xs font-mono tracking-widest uppercase text-[#D6D7D9] mb-3">
             Legal Document — Effective Date: January 1, 2026
           </p>
-          <h1 className="text-3xl md:text-4xl font-bold">Privacy Policy</h1>
+          <h1 className="text-3xl md:text-4xl font-bold text-balance">Privacy Policy</h1>
           <p className="text-[#D6D7D9] text-sm mt-3">
             Civic Media and Automation Systems LLC · civicmas.com
           </p>
@@ -100,7 +100,7 @@ export default function Privacy() {
           <div className="space-y-10">
             {sections.map((sec) => (
               <div key={sec.num} className="border-b border-[#D6D7D9] pb-10 last:border-0">
-                <h2 className="text-base font-bold text-[#112E51] mb-4">
+                <h2 className="text-base font-bold text-[#112E51] mb-4 text-balance">
                   {sec.num} {sec.title}
                 </h2>
                 <div className="text-sm text-[#5B616B] leading-relaxed whitespace-pre-line">

@@ -11,10 +11,7 @@ export default function Compliance() {
     <section id="compliance" className="py-20 px-6 bg-[#5B616B]">
       <div className="max-w-6xl mx-auto">
         <div className="mb-10">
-          <p className="text-xs text-[#D6D7D9] font-mono tracking-widest uppercase mb-2">
-            Section 03 — Trust & Compliance
-          </p>
-          <h2 className="text-2xl md:text-3xl font-bold text-white">
+          <h2 className="text-2xl md:text-3xl font-bold text-white text-balance">
             Federal Identifiers
           </h2>
           <p className="text-[#D6D7D9] mt-3 max-w-xl text-sm">

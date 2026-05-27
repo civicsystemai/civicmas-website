@@ -24,10 +24,7 @@ export default function Process() {
     <section id="process" className="py-20 px-6 bg-[#F1F1F1]">
       <div className="max-w-6xl mx-auto">
         <div className="mb-12">
-          <p className="text-xs text-[#5B616B] font-mono tracking-widest uppercase mb-2">
-            Section 02 — Core Competencies
-          </p>
-          <h2 className="text-2xl md:text-3xl font-bold text-[#112E51]">
+          <h2 className="text-2xl md:text-3xl font-bold text-[#112E51] text-balance">
             The Extraction Process
           </h2>
           <p className="text-[#5B616B] mt-3 max-w-xl">

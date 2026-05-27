@@ -1,18 +1,10 @@
-import { Mail } from "lucide-react";
+import { Mail, Download } from "lucide-react";
 
 export default function Hero() {
   return (
     <section className="pt-32 pb-24 px-6 bg-white">
       <div className="max-w-4xl mx-auto">
-        {/* Classification-style badge */}
-        <div className="inline-flex items-center gap-2 mb-8 px-3 py-1 border border-[#D6D7D9] rounded-sm bg-[#F1F1F1]">
-          <span className="w-2 h-2 rounded-full bg-[#112E51] shrink-0" />
-          <span className="text-xs text-[#5B616B] font-mono tracking-wider uppercase">
-            Phase 1 · Capability Statement · Public Release
-          </span>
-        </div>
-
-        <h1 className="text-3xl md:text-5xl font-bold text-[#112E51] leading-tight mb-6 max-w-3xl">
+        <h1 className="text-3xl md:text-5xl font-bold text-[#112E51] leading-tight mb-6 max-w-3xl text-balance">
           Automated RFP Compliance Extraction for Prime Contractors.
         </h1>
 
@@ -34,6 +26,14 @@ export default function Hero() {
             className="inline-flex items-center gap-2 px-6 py-3 border border-[#D6D7D9] text-[#5B616B] text-sm font-medium rounded-sm hover:border-[#112E51] hover:text-[#112E51] transition-colors w-fit"
           >
             View Process
+          </a>
+          <a
+            href="/Civic-Automation-Systems-Cap-Statement.pdf"
+            download
+            className="inline-flex items-center gap-2 px-6 py-3 border border-[#D6D7D9] text-[#5B616B] text-sm font-medium rounded-sm hover:border-[#112E51] hover:text-[#112E51] transition-colors w-fit"
+          >
+            <Download size={15} />
+            Download Capability Statement (PDF)
           </a>
         </div>
 
