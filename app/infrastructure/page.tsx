@@ -52,7 +52,8 @@ const sections = [
 const certifications = [
   { label: "HUBZone Certified", issuer: "U.S. Small Business Administration" },
   { label: "SAM.gov Registered", issuer: "System for Award Management — Active" },
-  { label: "UEI Assigned", issuer: "[Pending — see /capabilities for current identifiers]" },
+  { label: "UEI", issuer: "CXCTUMJH1728" },
+  { label: "CAGE Code", issuer: "19ST2" },
   { label: "NAICS Primary", issuer: "541519 · Other Computer Related Services" },
   { label: "NAICS Secondary", issuer: "518210 · Computing Infrastructure Providers" },
 ];

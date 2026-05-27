@@ -1,7 +1,7 @@
 const identifiers = [
   { label: "Certification", value: "HUBZone Certified (SBA)" },
-  { label: "UEI", value: "[PENDING]" },
-  { label: "CAGE Code", value: "[PENDING]" },
+  { label: "UEI", value: "CXCTUMJH1728" },
+  { label: "CAGE Code", value: "19ST2" },
   { label: "Primary NAICS", value: "541519 · 518210" },
   { label: "Infrastructure", value: "Zero-Integration / Stateless Processing" },
 ];
