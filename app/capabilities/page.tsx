@@ -8,6 +8,12 @@ export const metadata: Metadata = {
     "Core competency architecture for automated RFP compliance extraction, sub-tier pricing normalization, and FOIA/PTW OCR extraction.",
 };
 
+function noOrphan(str: string) {
+  const i = str.lastIndexOf(" ");
+  if (i === -1) return <>{str}</>;
+  return <>{str.slice(0, i)}&nbsp;{str.slice(i + 1)}</>;
+}
+
 const services = [
   {
     index: "CAP-01",
@@ -80,7 +86,7 @@ export default function Capabilities() {
           <p className="text-[#D6D7D9] max-w-2xl text-sm leading-relaxed text-pretty">
             Automated data extraction services purpose-built for federal proposal operations.
             All processing occurs on stateless processing environments with zero integration
-            requirements from the Prime.
+            requirements from the&nbsp;Prime.
           </p>
         </div>
       </div>
@@ -107,7 +113,7 @@ export default function Capabilities() {
                 {svc.title}
               </h2>
 
-              <p className="text-[#5B616B] leading-relaxed mb-10 max-w-3xl text-pretty">{svc.description}</p>
+              <p className="text-[#5B616B] leading-relaxed mb-10 max-w-3xl text-pretty">{noOrphan(svc.description)}</p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-[#D6D7D9]">
                 {/* Inputs */}

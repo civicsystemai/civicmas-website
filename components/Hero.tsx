@@ -10,7 +10,7 @@ export default function Hero() {
 
         <p className="text-lg text-[#5B616B] mb-10 max-w-2xl leading-relaxed text-pretty">
           A specialized, HUBZone-certified data infrastructure firm specializing in
-          zero-integration compliance matrix generation.
+          zero-integration compliance matrix&nbsp;generation.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4">

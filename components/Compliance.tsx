@@ -15,7 +15,7 @@ export default function Compliance() {
             Federal Identifiers
           </h2>
           <p className="text-[#D6D7D9] mt-3 max-w-xl text-sm text-pretty">
-            Registered and compliant with SBA HUBZone program. All identifiers current as of filing.
+            Registered and compliant with SBA HUBZone program. All identifiers current as of&nbsp;filing.
           </p>
         </div>
 

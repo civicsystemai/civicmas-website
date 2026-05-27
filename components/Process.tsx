@@ -1,3 +1,9 @@
+function noOrphan(str: string) {
+  const i = str.lastIndexOf(" ");
+  if (i === -1) return <>{str}</>;
+  return <>{str.slice(0, i)}&nbsp;{str.slice(i + 1)}</>;
+}
+
 const steps = [
   {
     number: "01",
@@ -42,7 +48,9 @@ export default function Process() {
                 {step.number}
               </span>
               <h3 className="text-lg font-bold text-[#112E51]">{step.title}</h3>
-              <p className="text-sm text-[#5B616B] leading-relaxed grow text-pretty">{step.description}</p>
+              <p className="text-sm text-[#5B616B] leading-relaxed grow text-pretty">
+                {noOrphan(step.description)}
+              </p>
             </div>
           ))}
         </div>

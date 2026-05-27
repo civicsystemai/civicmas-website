@@ -7,6 +7,12 @@ export const metadata: Metadata = {
     "Zero-trust data isolation methodology and security posture for federal subcontract operations.",
 };
 
+function noOrphan(str: string) {
+  const i = str.lastIndexOf(" ");
+  if (i === -1) return <>{str}</>;
+  return <>{str.slice(0, i)}&nbsp;{str.slice(i + 1)}</>;
+}
+
 const sections = [
   {
     ref: "SEC-01",
@@ -73,7 +79,7 @@ export default function Infrastructure() {
           <p className="text-[#D6D7D9] max-w-2xl text-sm leading-relaxed text-pretty">
             Designed for federal IT auditors, Prime compliance officers, and contracting officials
             evaluating subcontractor risk. This document describes our data handling architecture,
-            processing methodology, and current compliance status.
+            processing methodology, and current compliance&nbsp;status.
           </p>
         </div>
       </div>
@@ -92,7 +98,7 @@ export default function Infrastructure() {
               <h2 className="text-xl md:text-2xl font-bold text-[#112E51] mb-1 text-balance">{sec.title}</h2>
               <p className="text-sm font-mono text-[#5B616B] mb-6">{sec.subtitle}</p>
 
-              <p className="text-[#5B616B] leading-relaxed mb-10 max-w-3xl text-pretty">{sec.body}</p>
+              <p className="text-[#5B616B] leading-relaxed mb-10 max-w-3xl text-pretty">{noOrphan(sec.body)}</p>
 
               {/* Properties table */}
               <div className="border border-[#D6D7D9] divide-y divide-[#D6D7D9]">
