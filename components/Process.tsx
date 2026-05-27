@@ -27,7 +27,7 @@ export default function Process() {
           <h2 className="text-2xl md:text-3xl font-bold text-[#112E51] text-balance">
             The Extraction Process
           </h2>
-          <p className="text-[#5B616B] mt-3 max-w-xl">
+          <p className="text-[#5B616B] mt-3 max-w-xl text-pretty">
             A fully auditable, three-stage pipeline designed for defensible GovCon deliverables.
           </p>
         </div>
@@ -42,7 +42,7 @@ export default function Process() {
                 {step.number}
               </span>
               <h3 className="text-lg font-bold text-[#112E51]">{step.title}</h3>
-              <p className="text-sm text-[#5B616B] leading-relaxed grow">{step.description}</p>
+              <p className="text-sm text-[#5B616B] leading-relaxed grow text-pretty">{step.description}</p>
             </div>
           ))}
         </div>

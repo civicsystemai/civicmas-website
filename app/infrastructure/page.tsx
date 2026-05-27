@@ -70,7 +70,7 @@ export default function Infrastructure() {
           <h1 className="text-3xl md:text-4xl font-bold mb-4 text-balance">
             Zero-Trust Data Isolation & Security Posture
           </h1>
-          <p className="text-[#D6D7D9] max-w-2xl text-sm leading-relaxed">
+          <p className="text-[#D6D7D9] max-w-2xl text-sm leading-relaxed text-pretty">
             Designed for federal IT auditors, Prime compliance officers, and contracting officials
             evaluating subcontractor risk. This document describes our data handling architecture,
             processing methodology, and current compliance status.
@@ -92,7 +92,7 @@ export default function Infrastructure() {
               <h2 className="text-xl md:text-2xl font-bold text-[#112E51] mb-1 text-balance">{sec.title}</h2>
               <p className="text-sm font-mono text-[#5B616B] mb-6">{sec.subtitle}</p>
 
-              <p className="text-[#5B616B] leading-relaxed mb-10 max-w-3xl">{sec.body}</p>
+              <p className="text-[#5B616B] leading-relaxed mb-10 max-w-3xl text-pretty">{sec.body}</p>
 
               {/* Properties table */}
               <div className="border border-[#D6D7D9] divide-y divide-[#D6D7D9]">

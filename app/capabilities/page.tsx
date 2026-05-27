@@ -77,7 +77,7 @@ export default function Capabilities() {
             Civic Automation Systems — Capability Statement
           </p>
           <h1 className="text-3xl md:text-4xl font-bold mb-4 text-balance">Core Competencies</h1>
-          <p className="text-[#D6D7D9] max-w-2xl text-sm leading-relaxed">
+          <p className="text-[#D6D7D9] max-w-2xl text-sm leading-relaxed text-pretty">
             Automated data extraction services purpose-built for federal proposal operations.
             All processing occurs on stateless processing environments with zero integration
             requirements from the Prime.
@@ -107,7 +107,7 @@ export default function Capabilities() {
                 {svc.title}
               </h2>
 
-              <p className="text-[#5B616B] leading-relaxed mb-10 max-w-3xl">{svc.description}</p>
+              <p className="text-[#5B616B] leading-relaxed mb-10 max-w-3xl text-pretty">{svc.description}</p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-[#D6D7D9]">
                 {/* Inputs */}
