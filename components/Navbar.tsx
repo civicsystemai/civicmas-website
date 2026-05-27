@@ -22,19 +22,19 @@ export default function Navbar() {
 
         <div className="hidden md:flex items-center gap-8">
           <a
-            href="#process"
+            href="/capabilities"
             className="text-[#5B616B] text-sm font-medium hover:text-[#112E51] transition-colors"
           >
             Capabilities
           </a>
           <a
-            href="#compliance"
+            href="/infrastructure"
             className="text-[#5B616B] text-sm font-medium hover:text-[#112E51] transition-colors"
           >
             Infrastructure
           </a>
           <a
-            href="#contact"
+            href="/contact"
             className="text-[#5B616B] text-sm font-medium hover:text-[#112E51] transition-colors"
           >
             Contact
