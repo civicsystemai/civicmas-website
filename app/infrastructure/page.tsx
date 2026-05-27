@@ -96,7 +96,7 @@ export default function Infrastructure() {
 
               {/* Properties table */}
               <div className="border border-[#D6D7D9] divide-y divide-[#D6D7D9]">
-                <div className="grid grid-cols-2 bg-[#112E51] px-5 py-2">
+                <div className="grid grid-cols-2 bg-[#112E51] px-6 py-3">
                   <span className="text-xs font-mono tracking-widest uppercase text-[#D6D7D9]">
                     Property
                   </span>
@@ -107,7 +107,7 @@ export default function Infrastructure() {
                 {sec.properties.map((prop) => (
                   <div
                     key={prop.label}
-                    className="grid grid-cols-2 px-5 py-3 bg-white hover:bg-[#F1F1F1] transition-colors"
+                    className="grid grid-cols-2 px-6 py-3 bg-white hover:bg-[#F1F1F1] transition-colors"
                   >
                     <span className="text-sm text-[#5B616B] font-medium">{prop.label}</span>
                     <span className="text-sm text-[#212121] font-mono">{prop.value}</span>
@@ -129,7 +129,7 @@ export default function Infrastructure() {
               {certifications.map((cert) => (
                 <div
                   key={cert.label}
-                  className="flex flex-col sm:flex-row sm:items-center gap-1 px-5 py-4 bg-white"
+                  className="flex flex-col sm:flex-row sm:items-center gap-1 px-6 py-4 bg-white"
                 >
                   <span className="font-semibold text-[#112E51] text-sm sm:w-56 shrink-0">
                     {cert.label}

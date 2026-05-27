@@ -32,17 +32,17 @@ export default function Process() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-[#D6D7D9]">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {steps.map((step) => (
             <div
               key={step.number}
-              className="bg-white p-8 flex flex-col gap-4"
+              className="bg-white p-8 flex flex-col gap-4 h-full border border-[#D6D7D9]"
             >
               <span className="font-mono text-3xl font-bold text-[#D6D7D9] select-none">
                 {step.number}
               </span>
               <h3 className="text-lg font-bold text-[#112E51]">{step.title}</h3>
-              <p className="text-sm text-[#5B616B] leading-relaxed">{step.description}</p>
+              <p className="text-sm text-[#5B616B] leading-relaxed grow">{step.description}</p>
             </div>
           ))}
         </div>
